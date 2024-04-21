@@ -1,10 +1,15 @@
 import React from "react";
-import Logo from './logo/Logo'
+import styles from "./styles.module.css"
+import Logo from './logo/Logo';
+import Menu from './menu/Menu';
+import Authorization from "./authorization/Authorization";
 
-function Header () {
+export default function нeader () {
     return (
         <div>
-
+            <Logo></Logo>
+            <Menu></Menu>
+            <Authorization></Authorization>
         </div>
     )
 }
