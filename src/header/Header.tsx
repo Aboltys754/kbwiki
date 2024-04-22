@@ -6,7 +6,7 @@ import Authorization from "./authorization/Authorization";
 
 export default function нeader () {
     return (
-        <div>
+        <div className={styles.root}>
             <Logo></Logo>
             <Menu></Menu>
             <Authorization></Authorization>
