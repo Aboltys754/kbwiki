@@ -1,0 +1,9 @@
+.root {
+    margin: 5px;
+}
+
+.root button {
+    font-size: 25px;
+    width: 150px;
+    border-radius: 10px;
+}

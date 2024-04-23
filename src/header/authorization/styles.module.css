@@ -1,0 +1,10 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin-right: 5px;
+    margin-top: 5px;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
